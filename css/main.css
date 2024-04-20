@@ -1,0 +1,125 @@
+/* 
+drab dark brown : 4E4E2C
+SANDY BROWN: FFA047 
+yinmin blue: 3C4B68
+mint cream: F0F7EE  
+cambridge blue: 81523F
+*/
+
+/* 
+davy's gray: #565656
+light green: #B2FFA9
+coquelicot: #FF4A1C
+coffee: #81523F
+vany dyke: #3F2A2B
+*/
+
+.body {
+    background-color: #F0F7EE;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 5vh 10vw;
+    z-index: 1;
+}
+
+.right-main  {
+    background-color: #F0F7EE;
+    color: #81523F;
+    padding: 2vh 2vw 5vh 2vw;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.right-main .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-main .introduction a {
+    color:inherit;
+}
+
+.right-main .introduction a:hover {
+    color:#FFA047;
+}
+
+.experience-list {
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #F0F7EE;
+    padding: 1.5em;
+    color: #81523F;
+    font-size: 1.5rem;
+}
+
+.header h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.header img {
+    border-radius: 50%;
+    width: 5vw
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: row;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.experience-container-left-main {
+    min-width: 10vw;
+}
+
+.experience-title-header {
+    margin: 0;
+    padding: 0;
+}
+
+.skill-pill-ul {
+    list-style-type: none;
+    display: inline-grid;
+    padding-left: 0;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 1em;
+}
+
+.skill-pill-ul li {
+    background-color: #FF4A1C;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.2em 1em;
+    margin-right: 1em;
+    color: #B2FFA9
+}
+
+.contact-info {
+    text-decoration: none;
+    margin-top: 5em;
+}
+
+.contact-info a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.revealed-area {
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(
+        circle 350px at 50% 50%,
+        transparent 10%,
+        rgba(235, 111, 76, 0.38)
+    );
+    pointer-events: none;
+}
